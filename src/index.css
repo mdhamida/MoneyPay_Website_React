@@ -1,13 +1,599 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: rgba(128, 128, 128, 0.065); */
+    font-family: "Poppins" , sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* 
+:root {
+    --bgcolor:#f1f5fd
+} */
+
+html {
+    font-size: 62.5%;
 }
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #333333;
+
+}
+
+
+/* navbar css  */
+
+/* .navbar-bg{
+    color: #333333;
+    padding: 2rem 0;
+    position: relative;
+    z-index: 99;
+
+
+} */
+
+
+
+
+
+.navbar-brand{
+    font-size: 2.0rem;
+}
+
+.navbar li {
+    /* padding: 1rem 0; */
+    font-size: 1.5rem;
+  
+}
+
+
+.navbar li a {
+    padding: 2rem 0;
+    font: 1.9rem;
+    font-weight: lighter;
+    position: relative; 
+}
+
+.navbar li a:hover{
+  color: rgb(6, 4, 4) !important ;
+  background-color: white;
+  /* text-shadow: 0 0.2rem 0.3rem paleturquoise;   */
+}
+
+.btn-style{
+   width: 12rem;
+   height: 4rem;
+   border-radius: 2rem;
+   color: white;
+   background-color: rgba(128, 0, 128, 0.628); 
+   text-transform: capitalize;
+   margin-right: 1rem;
+   font-size: 1.6rem;
+   margin-left: 1rem;
+
+
+}
+
+
+
+
+.btn-style:hover{
+    border: 1px solid gray;
+    background-color: #e9bfbf69;
+    color: rgb(6, 6, 5);
+    box-shadow: 1px red;
+}
+
+
+
+/* first component css header  */
+
+
+header{
+    background-color: rgba(128, 128, 128, 0.31);
+    min-height: 100vh;
+    display: flex;
+    box-shadow: 2px 2px gray;
+    
+
+}
+
+
+
+.main-hero-container{
+    height: 80vh;
+    display: flex ;
+
+    /* background-color: #fff; */
+}
+
+
+
+.main-hero-container h1 {
+    text-transform: capitalize;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    
+    /* color: red; */
+
+}
+
+.main-hero-para{
+    font-size: 15px;
+    color: #000;
+    width: 100%;
+    margin: 20px 0 50px 0;
+    font-weight: lighter;
+    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.main-hero-container h3 {
+  font-weight: lighter;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+    
+    /* color: red; */
+
+}
+
+.main-herosection-images{
+    position: relative;
+}
+
+.main-herosection-images img {
+    width: 60%;
+    height: 70%;
+    margin-top: 100px;
+    box-shadow: 0 0.8rem 0.8rem rgba(14, 14, 14, 0.914);
+    border-radius: 15px;
+    position: absolute;
+
+}
+
+
+.main-herosection-images .main-hero-img2{
+  position: absolute;
+  width: 50%;
+  height: 30%;
+  left: 55%;
+  top: -2px;
+  
+
+}
+
+
+.input-group{
+  position: relative !important;
+ 
+   
+}
+
+
+.form-control-text{
+    position: absolute;
+    height: 50px;
+   
+    border: none;
+    background-color: #fff;
+    outline-style: none;
+    padding-left: 15px !important;
+    font-size: 1.4rem;
+    font-weight: lighter;
+
+}
+
+.input-group-button{
+    position: absolute;
+    right: 25%;
+   top: 1px;
+   padding: 2rem;
+    color: white;
+    background-color: rgba(128, 0, 128, 0.77);
+    height: 45px;
+    width: 15%;
+    border-radius: 2rem !important;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    font-size: 1.3rem;
+
+}
+
+/* home component css in  */
+.work-container{
+
+width: 80vw;
+padding: 50px;
+box-shadow: 0 0.4rem 1.2rem rgba(0, 0, 0, 0.4);
+margin-top: -10rem;
+border-radius: 5px;
+}
+
+
+.work-container .main-heading{
+    font-size: 3rem;
+    font-weight: bolder;
+    margin-bottom: 40px;
+    word-spacing: 10px;
+    /* margin-right: 100px; */
+
+
+}
+
+
+.work-container-subdiv{
+    padding: 0 6rem;
+
+}
+
+
+.work-container .sub-heading{
+    font-size: 2rem;
+    font-weight: normal;
+
+}
+
+.fontawasome-style{
+    font-size: 2.3rem;
+    color: rgb(242, 57, 57);
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    background-color: rgba(187, 112, 187, 0.354);
+    margin: 20px  auto;
+
+
+}
+
+/* about component css */
+
+.common-section{
+    box-shadow: 0px 1px 0px 0px rgb(13, 13, 13);
+    scale: (1.02);
+
+    /* background-color: red; */
+}
+
+.our-services img{
+    width: 30vw;
+    height: 30vw;
+    margin-top: 25rem;
+    box-shadow: 0px 1rem 1rem rgba(8, 8, 8, 0.433);
+    border-radius: 15px ;
+
+
+}
+
+.our-services .mini-title{
+    text-transform: uppercase;
+    font-weight: normal;
+    margin: 3rem 0;
+    text-align: left;
+    font-size: 15px;
+   font-family: 'Courier New', Courier, monospace;
+
+}
+
+
+
+.our-services .main-heading{
+    font-weight: bolder;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.386);
+    
+}
+
+.our-services-info {
+    margin-top: 40px;
+
+}
+
+
+
+.our-services .our-services-num {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 1px solid rgb(236, 35, 129);
+    font-size: 1rem;
+    color: black;
+    display: grid;
+    place-items: center;
+
+}
+
+.our-services-data h2 {
+   /* padding-right: 280px; */
+   margin-right: 160px;
+   font-weight: bold;
+
+}
+
+
+.our-services .main-hero-para{
+    margin: 1.5rem;
+    text-align: center;
+    text-align: center;  
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+/* .btn-style{
+    margin-right: 200px;
+} */
+
+
+
+/* about page css  */
+.common-section{
+    margin: 50px 0;
+
+}
+
+/* // 2nd part of about  */
+.our-service-rightside-img{
+    padding: 20px;
+}
+
+.our-service-rightside {
+    margin-top: 100px;
+}
+
+  
+/* form components css  */
+
+/* .form-container{
+    background-color: rgba(128, 128, 128, 0.209);
+    
+    border-radius: 30px;
+    margin-bottom: 30px;
+    box-shadow: 0px 2px 1px 2px  rgba(0, 0, 0, 0.478);
+}
+
+
+.form-container label{
+    font-weight: bold;
+    font-size: 14px;
+}
+
+
+.form-container input {
+    padding: 15px;
+    border-radius: 10px;
+    margin: 5px;
+} */
+
+/* .form-container  .btn-primary {
+    margin-bottom: 20px;
+    font-size: 12px;
+    padding: 10px;
+   width: 10vw;
+   background-color: purple;
+   border-radius: 20px;
+} */
+
+/* services css part  */
+
+.service-main-container{
+  margin-top: 50px;
+  padding: 50 o;  
+}
+
+.service-main-container .main-heading{
+    margin: 30px 0px;
+    font-weight: bold;
+}
+.work-container-subdiv{
+  box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.19);
+}
+.service-main-container .fontawasome-style{
+  text-align: left;
+  margin: 2rem 0;
+}
+.work-container-subdiv:hover{
+   background-color: #3333330e; 
+   cursor: pointer;
+}
+
+.work-container-subdiv > .fontawasome-style{
+    background-color: #fff;
+}
+
+
+
+/* form and contact us css 00__________ */
+
+.contactus-section{
+    margin: 15rem 0;
+
+}
+
+/* .contact-leftside img{
+    min-width: 80% !important;
+    max-height: 30rem;
+    height: auto;
+
+
+} */
+
+.contact-input-field {
+    margin-bottom: 40px;
+}
+
+.form-control {
+    height: 4rem;
+    border: 1px solid #ced4da;
+    border-radius: 1.5rem;
+    font-size: 1.3rem;
+    padding-left: 1rem;
+    font-weight: lighter;
+
+}
+
+.form-check-input{
+    width: 2rem;
+    height: 2rem;
+}
+
+.contact-rightside  .main-hero-para {
+    font-size: 1.5rem;
+    color: black;
+    margin: 0;
+    font-weight: lighter;
+    width: 75%;
+    padding: 0 2rem;
+}
+
+
+
+/* footer css  */
+
+footer {
+    padding: 5rem 0;
+    background-color: #182334;
+    color: #fff;
+}
+
+footer h2 {
+    color: #fff;
+}
+
+footer li {
+    font-size: 1.5rem;
+    font-weight: lighter;
+    color: white;
+    cursor: pointer;
+    margin: 1rem 0;
+    list-style: none;
+}
+
+footer li:hover {
+    color: blueviolet;
+} 
+
+footer .main-hero-para {
+    margin: 0;
+    color: white;
+
+}
+
+footer .fontawasome-style {
+    font-size: 2.3rem;
+    color: blueviolet;
+    background-color: transparent;
+    width: 0;
+    height: 0;
+    margin: 2rem 0;
+    cursor: pointer;
+
+}
+
+footer .fontawasome-style:hover{
+    transition: all 1s;
+    animation: rotatefont 1s linear infinite alternate-reverse;
+    color: white;
+}
+
+@keyframes rotatefont {
+    
+    0% {
+        transform: scale(0.6);
+    }
+
+    100% {
+        transform: scale(1.2);
+    }
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:1400px){
+    .service-container .col-xxl-4 {
+        flex: 0 0 auto;
+        width: 30% !important;
+        margin: auto;
+    }
+
+}
+
+@media ( min-width: 992px ){
+    .service-container .col-lg-4 {
+        flex: 0 0 auto;
+        width: 30% !important;
+        margin: 25px auto;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width : 1500px) {
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container.xl,
+    .container.xxl {
+        max-width: 1500px !important;
+    }
+   
+}
+
+
+
+@media (min-width : 1400px) {
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container.xl,
+    .container.xxl {
+        max-width: 1400px !important;
+    }
+    
+
+    
+}
+
+
+

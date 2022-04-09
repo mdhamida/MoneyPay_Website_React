@@ -1,25 +1,51 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import About from './components.js/About'
+import Contact from './components.js/Contact'
+import Footer from './components.js/Footer'
+import Forms from './components.js/Forms'
+import Header from './components.js/Header'
+import Home from './components.js/Home'
+import Navbar from './components.js/Navbar'
+import Services from './components.js/Services'
+import { BrowserRouter, Routes,Route} from "react-router-dom";
+import SignIn from './components.js/SignIn'
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+
+   <Navbar/>
+ 
+    <Routes>
+      <Route path="/" element={<Header/>}></Route>
+      <Route path="/about" element={<About/>}></Route>
+      <Route path="/services" element={<Services/>}></Route>
+      <Route path="/contact" element={<Contact/>}></Route>
+    </Routes>
+   
+
+
+
+
+
+
+
+
+
+
+
+
+{/*     
+    <Navbar/>
+    <Header/>
+    <Home/>
+    <About/>
+    <Services/>
+    <Contact/>
+    <Footer/> */}
+   
+    </>
+  )
 }
 
-export default App;
+export default App
