@@ -14,8 +14,18 @@
 
 
 ###### LEARN FRON THIS WEBSITE...............
->What is React and how do you learn it?
-As for JavaScript, React is built on JavaScript, so there is no escaping learning how to code in JavaScript. You need to know the basics of JavaScript and have a good knowledge of HTML and CSS to get started with React. Your best bet is to focus on learning JavaScript ES6 or beyond
+As for JavaScript, React is built on JavaScript, so there is no escaping learning how to code in JavaScript. 
+You need to know the basics of JavaScript and have a good knowledge of HTML and CSS to get started with React.
+Your best bet is to focus on learning JavaScript ES6 or beyond
+#### uses of this topics in this web
+React State vs Props.
+React Constructor.
+React Component API.
+Component Life Cycle.
+React Forms.
+Controlled vs Uncontrolled.
+React Events.
+Conditional Rendering.
 
 ### 1 Navbaar snapshot
 ![m1](https://user-images.githubusercontent.com/88300530/162601603-6cdee3f0-e65a-4c4d-a7d2-27d67af93b84.png)
