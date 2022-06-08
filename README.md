@@ -6,6 +6,12 @@
 ###### CSS
 ###### JAVASCRIPT
 
+##### npx create-react-app my-app
+###### cd my-app
+###### npm start
+
+
+###### LEARN FRON THIS WEBSITE...............
 
 ### 1 Navbaar snapshot
 ![m1](https://user-images.githubusercontent.com/88300530/162601603-6cdee3f0-e65a-4c4d-a7d2-27d67af93b84.png)
