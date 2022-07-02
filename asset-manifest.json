@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/MoneyPay_Website_React/static/css/main.18b462be.css",
+    "main.js": "/MoneyPay_Website_React/static/js/main.4eb79cab.js",
+    "static/media/img5.jpg": "/MoneyPay_Website_React/static/media/img5.796b3cb4315385831374.jpg",
+    "static/media/img1.webp": "/MoneyPay_Website_React/static/media/img1.fe6cb50c162512926916.webp",
+    "static/media/img2.jpg": "/MoneyPay_Website_React/static/media/img2.d76cdf675d6eff74fd66.jpg",
+    "static/media/img6.jfif": "/MoneyPay_Website_React/static/media/img6.2bfc693100bbe5f5572f.jfif",
+    "index.html": "/MoneyPay_Website_React/index.html",
+    "main.18b462be.css.map": "/MoneyPay_Website_React/static/css/main.18b462be.css.map",
+    "main.4eb79cab.js.map": "/MoneyPay_Website_React/static/js/main.4eb79cab.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.18b462be.css",
+    "static/js/main.4eb79cab.js"
+  ]
+}
